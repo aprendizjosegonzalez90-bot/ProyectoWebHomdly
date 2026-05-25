@@ -28,7 +28,7 @@ header.innerHTML = `
 
       <!-- Logo -->
       <a href="index.html" class="logo" >
-        <img src="./assets/images/logo.png" alt="Homdly" height="45">
+        <img src="../assets/images/logo.png" alt="Homdly" height="45">
       </a>
 
       <!-- Botón hamburguesa — solo aparece en móvil -->
@@ -72,7 +72,7 @@ header.innerHTML = `
   
       <!-- Logo -->
       <div class="logo-Footer">
-        <img src="./assets/images/logo 50.png" alt="">
+        <img src="../assets/images/logo 50.png" alt="">
         <div class="logo-text">
           <h1>HOMDLY</h1>
         </div>
