@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homdly – Detalle de Propiedad</title>
+  <title>Homdly – Apartamento en Arriendo en Santa Fe de Antioquia</title>
 
  <link rel="shortcut icon" href="./assets/images/iconoLogo.ico" type="image/svg+xml">
 
@@ -26,6 +26,26 @@
 </head>
 <body>
     <header class="header"></header>
+  
+    <!-- Datos de todas las fotos de la propiedad (leídas por detalle.js) -->
+  <ul id="fotosData" hidden>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/1Apa003.png"
+        data-label="Sala principal"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/2Apa003.png"
+        data-label="Cocina"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/3Apa003.png"
+        data-label="Habitación principal"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/4Apa003.png"
+        data-label="Baño completo"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/5Apa003.png"
+        data-label="Oficina"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/6Apa003.png"
+        data-label="Terraza"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/7Apa003.png"
+        data-label="Segunda habitación"></li>
+    <li data-src="../assets/images/imgAnuncio/003Aparta/8Apa003.png"
+        data-label="Lavandería"></li>
+  </ul>
   
 <!-- modal galeria -->
   <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
@@ -196,9 +216,6 @@
         </div>
       </div>
 
-      
-      
-
       <!-- 7. ESTRATO -->
       <div class="filter-section">
         <div class="filter-label" onclick="toggleSection(this)">
@@ -217,8 +234,6 @@
           </div>
         </div>
       </div>
-
-   
 
       <button class="apply-btn">Aplicar Filtros</button>
 
@@ -245,12 +260,13 @@
           <div class="main-img-wrap" id="mainImgWrap">
             <span class="badge-alquiler">Alquiler</span>
             <img id="mainImg" src="" alt="Imagen principal">
-            <div class="img-counter" id="imgCounter">1 / 7</div>
+            <div class="img-counter" id="imgCounter">1 / 8</div>
           </div>
+
           <div class="thumbs-col" id="thumbsCol"></div>
         </div>
         <div class="below-gallery">
-          <span class="codigo-text">Código: 260094</span>
+          <span class="codigo-text">Código: A003</span>
           <div class="gallery-actions">
             <button class="action-link">&#9825; Guardar</button>
             <button class="action-link">&#10548; Compartir</button>
@@ -261,24 +277,24 @@
       <!-- INFO CARD -->
       <div class="right-col">
         <div class="info-card">
-          <h2 class="info-title">Apartaestudio</h2>
-          <p class="info-location">&#128205; Barrio El Llano Bolívar, Santa Fe de Antioquia</p>
+          <h2 class="info-title">Apartamento en Arriendo</h2>
+          <p class="info-location">&#128205; Sector El Llano, Santa Fe de Antioquia, Antioquia</p>
 
           <div class="info-specs">
             <div class="info-spec"><i class="fa-solid fa-bed spec-ico"></i><span class="spec-label">2 Habitaciones</span></div>
-            <div class="info-spec"><i class="fa-solid fa-ruler-combined spec-ico"></i><span class="spec-label">80 m²</span></div>
-            <div class="info-spec"><i class="fa-solid fa-shower spec-ico"></i><span class="spec-label">1 Baño</span></div>
-            <div class="info-spec"><i class="fa-solid fa-building spec-ico"></i><span class="spec-label">Sin parqueadero</span></div>
+            <div class="info-spec"><i class="fa-solid fa-ruler-combined spec-ico"></i><span class="spec-label">85 m²</span></div>
+            <div class="info-spec"><i class="fa-solid fa-shower spec-ico"></i><span class="spec-label">2 Baño</span></div>
+            <div class="info-spec"><i class="fa-solid fa-building spec-ico"></i><span class="spec-label">Con parqueadero</span></div>
           </div>
 
-          <div class="info-price">$ 2.000.000</div>
+          <div class="info-price">$ 1.800.000</div>
 
           <div class="agente-contact-row">
             <div class="agente-side">
               <div class="agente-avatar">
-                <img src="https://st3.depositphotos.com/1003989/17911/i/450/depositphotos_179114944-stock-photo-smiling-businesswoman-wearing-black-suit.jpg" alt="Tatiana">
+                <img src="assets/images/imgInicio/AnaCarolina.jpeg" alt="Ana">
               </div>
-              <span class="agente-nombre">Tatiana Ortiz V.</span>
+              <span class="agente-nombre">Ana Gonzalez A.</span>
             </div>
             <div class="contact-side">
               <span class="contactame-label">Contáctame:</span>
@@ -289,7 +305,7 @@
                 <a href="tel:+57300000000" class="ci ci-phone" title="Llamar">
                   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
                 </a>
-                <a href="mailto:tatiana@homdly.co" class="ci ci-email" title="Email">
+                <a href="mailto:anag@homdly.co" class="ci ci-email" title="Email">
                   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </a>
               </div>
@@ -309,7 +325,7 @@
 
       <!-- Descripción y iconos-->
       <div class="detail-left">
-        <div class="price-heading">$ 2.000.000</div>
+        <div class="price-heading">$ 1.800.000</div>
         <div class="prop-subtitle">
           Apartamento en Arriendo<br>
           <span>Sta Fe de Ant, Llano de Bolívar</span>
@@ -317,18 +333,18 @@
 
         <div class="section-label">Descripción</div>
         <div class="description">
-          <p>Descubra la elegancia y el diseño moderno en este espectacular apartaestudio de 90 metros cuadrados. Su iluminación inteligente transforma cada rincón para un ambiente amplio y un descanso reparador.</p>
-          <p>Pensado para quienes buscan calidad, inmersos en la naturaleza de villa circuiar, reúne en Manzanas el primor, con espacios de descanso en terraza y dos cocinas: samorización individual y sin reciente.</p>
-          <p>Un hogar ideal para quienes buscan calidad y diseño, disfrutando de la privacidad de sus ambientes.</p>
+          <p>Este espectacular apartamento destaca por su diseño contemporáneo de concepto abierto, donde una moderna cocina se integra fluidamente con una sala inundada de luz natural. Gracias a sus grandes ventanales de piso a techo, disfrutarás de una ventilación óptima y acceso directo a un hermoso balcón privado, el lugar perfecto para contemplar los atardeceres dorados sobre las montañas antioqueñas.</p>
+          <p>Ubicado en el exclusivo y apacible sector de El Llano en Santa Fe de Antioquia, el inmueble ofrece el balance perfecto entre descanso y conveniencia. A solo minutos a pie del emblemático centro colonial, los residentes podrán disfrutar de su riqueza histórica, variada gastronomía y de unas excelentes zonas comunes con piscina, perfectas para relajarse bajo el característico sol de la Ciudad Madre.</p>
+          <p>Por su versatilidad y altos estándares, este espacio es el lugar ideal tanto para parejas o familias pequeñas que buscan confort permanente, como para teletrabajadores y nómadas digitales que necesitan un entorno inspirador, ordenado y con gran conectividad en un destino turístico por excelencia.</p>
         </div>
 
         <div class="amenities-title">Características del Inmueble</div>
         <div class="amenities-grid">
           <div class="amenity"><div class="amenity-icon"><i class="bi bi-box"></i></div>Closet</div>
           <div class="amenity"><div class="amenity-icon"><i class="bi bi-car-front-fill"></i></div>Parqueadero</div>
-          <div class="amenity"><div class="amenity-icon"><i class="bi bi-water"></i></div>Piscina</div>
-          <div class="amenity"><div class="amenity-icon"><i class="bi bi-arrow-up-square"></i></div>Ascensor</div>
-          <div class="amenity"><div class="amenity-icon"><i class="bi bi-camera-video"></i></div>Cuarto útil</div>
+          <div class="amenity"><div class="amenity-icon"><i class="bi bi-sun"></i></div>Terraza</div>
+          <div class="amenity"><div class="amenity-icon"><i class="bi bi-image"></i></div>Vista a la montaña</div>
+          <div class="amenity"><div class="amenity-icon"><i class="bi bi-shield-lock"></i></div>Seguridad 24h</div>
           <div class="amenity"><div class="amenity-icon"><i class="bi bi-heart-pulse"></i></div>Mascotas</div>
           <div class="amenity"><div class="amenity-icon"><i class="bi bi-building"></i></div>Administ.</div>
           <div class="amenity"><div class="amenity-icon"><i class="bi bi-fire"></i></div>Zona BBQ</div>
