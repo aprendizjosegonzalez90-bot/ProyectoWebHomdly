@@ -1,8 +1,9 @@
 //array con las 7 fotos de la propiedad
 // Cada objeto tiene:URL de la imagen
-const fotos = JSON.parse(document.getElementById('galeria').dataset.fotos);
-
-
+const fotos = [...document.querySelectorAll('#fotosData li')].map(li => ({
+  src:   li.dataset.src,
+  label: li.dataset.label
+}));
 //  variables que recuerdan en qué foto estamos
 //   activeIndex → foto activa en la galería principal
 //   modalIndex  → foto activa dentro del modal
