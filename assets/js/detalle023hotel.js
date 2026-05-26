@@ -8,7 +8,7 @@ const fotos = [
   { src: 'assets/images/anuncio023/3.jpg', label: 'segunda habitacion' },
   { src: 'assets/images/anuncio023/6.jpg', label: 'cocina' },
   { src: 'assets/images/anuncio023/8.jpg', label: 'jacusi' },
-  { src: 'assets/images/anuncio023/9.jpg', label: 'jacusi' },
+  { src: 'assets/images/anuncio023/9.jpg', label: 'baños' },
 
 
 ];
